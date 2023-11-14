@@ -4,11 +4,13 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel src/index.html --open", "build": "parcel build src/index.html"
+    "start": "parcel src/index.html --open",
+    "build": "parcel build src/index.html"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.10.2",
     "parcel": "^2.10.2",
     "sass": "^1.69.5"
   }

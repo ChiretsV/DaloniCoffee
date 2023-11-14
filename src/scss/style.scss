@@ -1,0 +1,41 @@
+// @import 'mixins';
+// @import 'variables';
+@import url(sections/header.scss);
+@import url(sections/swiper.scss);
+@import url(sections/buttons-banner.scss);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    line-height: 24px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    visibility: visible;
+    font-family: Comfortaa,sans-serif;
+    color: #222;
+    letter-spacing: .02em;
+}
+
+a, button {
+    color: inherit;
+    line-height: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+// button:hover{
+//     background: black;
+// }
+
+// a:hover{
+//     color: #c22026;
+// }
+
+img {
+    height: auto;
+}
