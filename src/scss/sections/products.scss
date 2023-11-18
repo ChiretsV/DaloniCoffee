@@ -1,0 +1,481 @@
+.products{
+    width: 100%;
+    background: #f4f4f4;
+    padding: 70px 0;
+
+    .products-container{
+        max-width: 1170px;
+        margin: 0 auto;
+        display: flex;
+        padding: 0 10px;
+        gap: 30px;
+
+        @media (max-width: 767px) {
+            flex-wrap: wrap;
+        }
+
+        .products-week-coffee{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            width: 33.33%;
+
+            @media (max-width: 991px) {
+                width: 41.6%;
+            }
+
+            @media (max-width: 767px) {
+                width: 100%;
+            }
+
+            .products-week-coffee-offer{
+                display: flex;
+                flex-direction: column;
+                border-radius: 10px 10px 0 0;
+
+                .products-week-coffee-offer__title{
+                    margin-bottom: 0;
+                    font-size: 24px;
+                    color: #fff;
+                    text-align: center;
+                    line-height: 50px;
+                    background-color: #c22026;
+                    border-radius: 10px 10px 0 0;
+
+                    @media (max-width: 991px) {
+                        font-size: 22px;
+                        line-height: 48px;
+                    }
+                    
+                    @media (max-width: 767px) {
+                        font-size: 18px;
+                        line-height: 42px;
+                    }
+                }
+                .product-week-coffee-offer-content-container{
+                    display: flex;
+                    overflow: hidden;
+
+                    .product-week-coffee-offer-content{
+                        padding: 20px 20px 30px 20px;
+                        background: #fff;   
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        text-align: center;
+                        overflow: hidden;
+                        width: 100%;
+
+                        @media (max-width: 767px) and (min-width: 576px) {
+                            width: 50%;
+                        }
+    
+                        .products-week-coffee-offer-content-link{
+                            width: 100%;
+                            margin-top: 16px;
+    
+                            @media (max-width: 767px) {
+                                margin-top: 0;
+                            }
+                            
+                            .products-week-coffee-offer-content-link-img{
+                                max-width: 326px;
+                                max-height: 326px;
+                                overflow: hidden;
+    
+                                @media (max-width: 767px) {
+                                    width: 100%;
+                                    max-width: 488px;
+                                    max-height: 488px;
+                                }
+                            }
+    
+                            .products-week-coffee-offer-content-link__name{
+                                height: 45px;
+                                overflow: hidden;
+                                margin-bottom: 5px;
+                                font-size: 15px;
+                                line-height: 15px;
+                                font-weight: 400;
+    
+                                @media (max-width: 767px) {
+                                    margin-top: 15px;
+                                }
+                            }
+    
+                            .products-week-coffee-offer-content__name:hover{
+                                color: #c22026;
+                            }
+    
+                        }
+                        
+                        .products-week-coffee-offer-content__price{
+                            margin-top: 12px;
+                            margin-bottom: 12px;
+                            line-height: 16px;
+    
+                            @media (max-width: 767px) {
+                                margin-top: 9px;
+                            }
+    
+                            .products-week-coffee-offer-content__price__span-red{
+                                font-weight: 500;
+                                font-size: 17px;
+                                color: #c22026;
+                            }
+    
+                            .products-week-coffee-offer-content__price__span-cross{
+                                text-decoration: line-through;
+                                font-weight: 400;
+                                font-size: 15px;
+                                margin-left: 5px;
+                            }
+                        }
+    
+                        .products-week-coffee-offer-content-time{
+                            margin-top: 26px;
+                            display: flex;
+                            gap: 10px;
+                            justify-content: center;
+    
+                            @media (max-width: 767px) {
+                                margin-top: 20px;
+                            }
+    
+                            .products-week-coffee-offer-content-time__item{
+                                width: 45px;
+                                height: 60px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                border-radius: 3px;
+                                border: 1px solid rgb(214, 199, 199);
+                                font-size: 16px;
+                            }
+                        }
+    
+                        .products-week-coffee-offer-content__button{
+                            margin-top: 32px;
+                            color: white;
+                            font-size: 15px;
+                            font-weight: 400;
+                            padding: 0 25px;
+                            display: inline-block;
+                            border-radius: 10px;
+                            height: 44px;
+                            line-height: 44px;
+                            color: #fff;
+                            background: #c22026;
+                            text-align: center;
+                            border: transparent;
+                            width: 160px;
+                            transition: .15s;
+    
+                            @media (max-width: 991px) {
+                                padding: 0 20px;
+                                height: 40px;
+                                line-height: 40px;
+                                font-size: 13px;
+                                width: 136px;
+                            }
+    
+                            @media (max-width: 767px) {
+                                font-size: 14px;
+                                line-height: 38px;
+                                height: 38px;
+                                padding: 0 15px;
+                                margin-top: 24px;
+                            }
+                        }
+    
+                        .products-week-coffee-offer-content__button:hover{
+                            background-color: #222;
+                        }
+                    }
+
+                    .product-week-coffee-offer-content:last-child{
+                        display: none;
+                        text-align: center;
+
+                        @media (max-width: 767px) and (min-width: 576px) {
+                            display: block;
+                            width: 50%;
+                        }
+
+                        .products-week-coffee-offer-content-time{
+                            margin-top: 38px;
+                        }
+                    }
+                }
+            }
+
+            .products-week-coffee-drip-package{
+                width: 100%;
+
+                .products-week-coffee-drip-package-img{
+                    width: 100%;
+                    max-height: 480px;
+                    object-fit: cover;
+
+                    @media (max-width: 767px) {
+                        max-height: 727px;
+                    }
+                }
+            }
+        }
+
+        .products-offers{
+            width: 66.66%;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            @media (max-width: 767px) {
+                width: 100%;
+            }
+
+            .products-offers-section{
+                display: flex;
+                flex-direction: column;
+                gap: 23px;
+                padding: 30px 20px;
+                background: #fff;
+                border-radius: 10px;
+
+                .products-offers-section-title{
+                    display: flex;
+                    justify-content: space-between;
+
+                    .products-offers-section-title__text{
+                        font-size: 24px;
+                        line-height: 26px;
+                        font-weight: 500;
+                    }
+
+                    .products-offers-section-title-arrows{
+                        display: flex;
+                        gap: 12px;
+
+                        .products-offers-section-title-arrow{
+                            border: none;
+                            background: none;
+                            font-size: 24px;
+                            opacity: 0.7;
+                        }
+                    }
+                }
+
+                .products-offers-section-recomendations{
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    .products-offers-section-recomendations-item{
+                        width: calc(50% - 30px);
+                        display: flex;
+                        margin-bottom: 25px;
+                        margin-right: 30px;
+                        overflow: hidden;
+
+                        @media (max-width: 991px) {
+                            width: 100%;
+                        }
+
+                        .products-offers-section-recomendations-item-link{
+
+                            .products-offers-section-recomendations-item-link-img{
+                                width: 120px;
+                                height: 120px;
+                                object-fit: cover;
+
+                                @media (max-width: 1200px) {
+                                    width: 110px;
+                                    height: 110px;
+                                }
+
+                                @media (max-width: 991px) {
+                                    width: 108px;
+                                    height: 108px;
+                                }
+
+                                @media (max-width: 767px) {
+                                    width: 85px;
+                                    height: 85px;
+                                }
+                            }
+                        }
+
+                        .products-offers-section-recomendations-item-content{
+                            display: flex;
+                            flex-direction: column;
+                            text-align: left;
+                            margin-top: 0;
+                            padding-left: 16px;
+
+                            .products-offers-section-recomendations-item-content-link-name{
+                                height: 45px;
+                                overflow: hidden;
+                                font-size: 15px;
+                                line-height: 15px;
+                                font-weight: 400;
+                                margin-bottom: 10px;
+                            }
+
+                            .products-offers-section-recomendations-item-content-price{
+                                margin-top: 15px;
+                                margin-bottom: 12px;
+                                font-weight: 500;
+                                font-size: 17px;
+                                color: #c22026;
+                                line-height: 16px;
+
+                                @media (max-width: 767px) {
+                                    margin-top: 8px;
+                                    font-size: 13px;
+                                }
+                            }
+
+                            .products-offers-section-recomendations-item-content__button{
+                                height: auto;
+                                padding: 3px 6px;
+                                font-size: 10px;
+                                line-height: 1.5;
+                                width: 85px;
+                                border-radius: 3px;
+                                background: #c22026;
+                                color: #fff;
+                                border: none;
+
+                                @media (max-width: 767px) {
+                                    width: 80px;
+                                }
+                            }
+
+                            .products-offers-section-recomendations-item-content__button:hover{
+                                background-color: #222;
+                            }
+                        }
+                    }
+
+                    .products-offers-section-recomendations-item:nth-child(2), .products-offers-section-recomendations-item:nth-child(4){
+                        
+                        @media (max-width: 991px) {
+                            display: none;
+                        }
+                    }
+
+                    .products-offers-section-recomendations-item:nth-child(3), .products-offers-section-recomendations-item:nth-child(4){
+                        margin-bottom: 0;
+                    }
+                }
+
+                .products-offers-section-novelties{
+                    display: flex;
+                    flex-wrap: wrap;
+
+                    @media (max-width: 991px) {
+                        justify-content: center;
+                        column-gap: 30px;
+                    }
+
+                    .products-offers-section-novelties-item{
+                        width: calc(33.33% - 20px);
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        margin-bottom: 25px;
+                        margin-right: 30px;
+
+                        @media (max-width: 991px) {
+                            width: calc(50% - 40px);
+                            margin-right: 0;
+                        }
+
+                        @media (max-width: 576px) {
+                            width: 100%;
+                        }
+
+                        .products-offers-section-novelties-item-link{
+                            margin-bottom: 20px;
+
+                            @media (max-width: 576px) {
+                                width: 100%;
+                            }
+
+                            .products-offers-section-novelties-item-link-img{
+                                width: 100%;
+                                height: 100%;
+                                object-fit: cover;
+                            }
+                        }
+
+                        .products-offers-section-novelties-item-content{
+                            display: flex;
+                            flex-direction: column;
+                            text-align: center;
+                            margin-top: 0;
+
+                            .products-offers-section-novelties-item-content-link-name{
+                                height: 45px;
+                                overflow: hidden;
+                                font-size: 15px;
+                                line-height: 15px;
+                                font-weight: 400;
+                                margin-bottom: 10px;
+                            }
+
+                            .products-offers-section-novelties-item-content-price{
+                                margin-top: 15px;
+                                margin-bottom: 12px;
+                                font-weight: 500;
+                                font-size: 17px;
+                                color: #c22026;
+                                line-height: 16px;
+
+                                @media (max-width: 767px) {
+                                    margin-top: 8px;
+                                    font-size: 13px;
+                                }
+                            }
+
+                            .products-offers-section-novelties-item-content__button{
+                                height: auto;
+                                padding: 3px 6px;
+                                font-size: 10px;
+                                line-height: 1.5;
+                                width: 85px;
+                                border-radius: 3px;
+                                background: #c22026;
+                                color: #fff;
+                                border: none;
+                            }
+
+                            .products-offers-section-novelties-item-content__button:hover{
+                                background-color: #222;
+                            }
+                        }
+
+                    }
+                    .products-offers-section-novelties-item:nth-child(3), .products-offers-section-novelties-item:nth-child(6){
+                        @media (max-width: 991px) {
+                            display: none;
+                        }
+                    }
+
+                    .products-offers-section-novelties-item:nth-child(2), .products-offers-section-novelties-item:nth-child(5){
+                        @media (max-width: 576px) {
+                            display: none;
+                        }
+                    }
+
+                    .products-offers-section-novelties-item:nth-child(4), .products-offers-section-novelties-item:nth-child(5), .products-offers-section-novelties-item:nth-child(6){
+                        margin-bottom: 0;
+                    }
+
+                    .products-offers-section-novelties-item:nth-child(3), .products-offers-section-novelties-item:nth-child(6){
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }
+}
