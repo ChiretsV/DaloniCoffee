@@ -7,6 +7,7 @@
 @import url(sections/advantages.scss);
 @import url(sections/blog.scss);
 @import url(sections/brands.scss);
+@import url(sections/footer.scss);
 
 *{
     margin: 0;
@@ -30,17 +31,10 @@ a, button {
     line-height: inherit;
     text-decoration: none;
     cursor: pointer;
+    font-family: Comfortaa,sans-serif;
 }
 
 
-
-// button:hover{
-//     background: black;
-// }
-
-// a:hover{
-//     color: #c22026;
-// }
 
 img {
     height: auto;
