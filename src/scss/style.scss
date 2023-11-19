@@ -5,6 +5,7 @@
 @import url(sections/buttons-banner.scss);
 @import url(sections/products.scss);
 @import url(sections/advantages.scss);
+@import url(sections/blog.scss);
 
 *{
     margin: 0;
@@ -29,6 +30,8 @@ a, button {
     text-decoration: none;
     cursor: pointer;
 }
+
+
 
 // button:hover{
 //     background: black;
